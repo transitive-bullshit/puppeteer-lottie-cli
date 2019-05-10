@@ -1,0 +1,45 @@
+{
+  "name": "puppeteer-lottie-cli",
+  "version": "0.0.0",
+  "description": "CLI for rendering Lottie animations via Puppeteer to image, GIF, or MP4.",
+  "main": "index.js",
+  "repository": "transitive-bullshit/puppeteer-lottie-cli",
+  "author": "Travis Fischer <travis@transitivebullsh.it>",
+  "license": "MIT",
+  "bin": {
+    "puppeteer-lottie": "index.js"
+  },
+  "scripts": {
+    "docs": "update-markdown-usage",
+    "test": "ava -v && standard"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "puppeteer",
+    "lottie",
+    "lottie-web",
+    "bodymovin",
+    "after effects",
+    "render",
+    "animation",
+    "png",
+    "ffmpeg",
+    "gifski",
+    "gif",
+    "mp4",
+    "video",
+    "cli"
+  ],
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "execa": "^1.0.0",
+    "standard": "^12.0.1",
+    "update-markdown-usage": "^1.0.1"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "puppeteer-lottie": "^0.0.2"
+  }
+}
