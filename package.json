@@ -40,6 +40,6 @@
   },
   "dependencies": {
     "commander": "^2.15.1",
-    "puppeteer-lottie": "^0.1.0"
+    "puppeteer-lottie": "^1.0.0"
   }
 }
