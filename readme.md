@@ -47,7 +47,9 @@ Output must one of the following:
   - an image pattern (eg. sprintf format 'frame-%d.png' or 'frame-%012d.jpg')
   - an mp4 video file (requires FFmpeg to be installed)
   - a GIF file (requires Gifski to be installed)
+```
 
+```bash
 Examples:
   $ puppeteer-lottie -i fixtures/bodymovin.json -o out.mp4
   $ puppeteer-lottie -i fixtures/bodymovin.json -o out.gif --width 640
