@@ -27,7 +27,7 @@ Options:
   -o, --output <path>    relative path to store output media (image, image pattern, gif, or mp4) (default: "out.png")
   -w, --width <number>   optional output width
   -h, --height <number>  optional output height
-  -q, --quiet            Disable output progress
+  -q, --quiet            disable output progress
   -h, --help             output usage information
 
 Output must one of the following:
