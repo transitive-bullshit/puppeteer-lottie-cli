@@ -16,18 +16,30 @@ This CLI is also available as a [library](https://github.com/transitive-bullshit
 npm install -g puppeteer-lottie-cli
 ```
 
+If you want to generate **GIFs**, you must also install [gifski](https://gif.ski/). On macOS, you can run:
+
+```bash
+brew install gifski
+```
+
+If you want to generate **MP4s**, you must also install [ffmpeg](https://ffmpeg.org/). On macOS, you can run:
+
+```bash
+brew install ffmpeg
+```
+
 ## Usage
 
 ```bash
 Usage: puppeteer-lottie [options]
 
 Options:
-  -V, --version          output the version number
   -i, --input <path>     relative path to the JSON file containing animation data
   -o, --output <path>    relative path to store output media (image, image pattern, gif, or mp4) (default: "out.png")
   -w, --width <number>   optional output width
   -h, --height <number>  optional output height
   -q, --quiet            disable output progress
+  -V, --version          output the version number
   -h, --help             output usage information
 
 Output must one of the following:
@@ -51,6 +63,15 @@ If you pass `width` or `height`, the other dimension will be inferred by maintai
 If both `width` and `height` are passed, the output will have those dimensions, but there will be extra whitespace (or transparency if rendering PNGs) due to `lottie-web`'s default `rendererSettings.preserveAspectRatio` of `xMidyMid meet` ([docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/preserveAspectRatio) and [demo](https://codepen.io/giodif/pen/VYpaeo)).
 
 For `mp4` outputs, the height may be different by a pixel due to the `x264` encoder requiring even heights.
+
+## Compatibility
+
+All [lottie-web](https://github.com/airbnb/lottie-web) features should be fully supported by the `svg`, `canvas`, and `html` renderers.
+
+This includes all of the animations on [lottiefiles.com](https://lottiefiles.com/)! 🔥
+
+Also see Lottie's full list of [supported features](https://airbnb.io/lottie/#/supported-features).
+
 
 ## Related
 
