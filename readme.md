@@ -38,6 +38,8 @@ Options:
   -o, --output <path>    relative path to store output media (image, image pattern, gif, or mp4) (default: "out.png")
   -w, --width <number>   optional output width
   -h, --height <number>  optional output height
+  -b, --background <css-color-value>
+                         optional output background color (default: "transparent")
   -q, --quiet            disable output progress
   -V, --version          output the version number
   -h, --help             output usage information
