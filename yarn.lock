@@ -3581,10 +3581,10 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer-lottie@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/puppeteer-lottie/-/puppeteer-lottie-1.0.7.tgz#cdc3c2ee64bb9f6c1955e945d6ae33b07d6c4a42"
-  integrity sha512-qhCjk3eAad1Ff/9L1U87aPFHHeQWQN1wSfSCi+QSpiGAF/coyM75UI67E5+tM2OvlUjxjnaoovlYXn97OVO6Lg==
+puppeteer-lottie@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/puppeteer-lottie/-/puppeteer-lottie-1.0.8.tgz#0871b8c34c8d0641b48df63fa5499833afe87112"
+  integrity sha512-K4a1SZdI2PUou9LNSpNzzEEuk2/hMnPSN2pqJlGmEZxaHvPg3OKjR4nK8vlxspRYROf69bMsRnne6MJK9EeX6w==
   dependencies:
     css-in-js-utils "^3.0.2"
     execa "^1.0.0"
