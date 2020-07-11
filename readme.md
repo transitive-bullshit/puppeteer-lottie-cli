@@ -88,4 +88,4 @@ Also see Lottie's full list of [supported features](https://airbnb.io/lottie/#/s
 
 MIT © [Travis Fischer](https://transitivebullsh.it)
 
-If you found this package useful, consider <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter"></a>.
+Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
